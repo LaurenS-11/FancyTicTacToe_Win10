@@ -1,0 +1,50 @@
+{
+    "version": 3,
+    "cmakeMinimumRequired": {
+        "major": 3,
+        "minor": 10
+    },
+    "configurePresets": [
+        {
+            "name": "default",
+            "description": "Default preset for my cmake project",
+            "hidden": false,
+            "generator": "Unix Makefiles",
+            "binaryDir": "${sourceDir}/build",
+            "cacheVariables": {
+                "CMAKE_BUILD_TYPE": "Debug",
+                "CMAKE_EXPORT_COMPILE_COMMANDS": "YES"
+            }
+        },
+        {
+            "name": "GCC 14.2.0 x86_64-w64-mingw32 (ucrt64)",
+            "displayName": "GCC 14.2.0 x86_64-w64-mingw32 (ucrt64)",
+            "description": "Using compilers: C = C:\\msys64\\ucrt64\\bin\\gcc.exe, CXX = C:\\msys64\\ucrt64\\bin\\g++.exe",
+            "generator": "MinGW Makefiles",
+            "binaryDir": "${sourceDir}/out/build/${presetName}",
+            "cacheVariables": {
+                "CMAKE_INSTALL_PREFIX": "${sourceDir}/out/install/${presetName}",
+                "CMAKE_C_COMPILER": "C:/msys64/ucrt64/bin/gcc.exe",
+                "CMAKE_CXX_COMPILER": "C:/msys64/ucrt64/bin/g++.exe",
+                "CMAKE_BUILD_TYPE": "Debug",
+                "SFML_DIR": "C:/Libraries/SFML-3.0.0/lib/cmake/SFML"
+            }
+        },
+        {
+            "name": "mingw",
+            "generator": "MinGW Makefiles",
+            "description": "Use MinGW Makefiles generator",
+            "hidden": false,
+            "binaryDir": "${sourceDir}/out/build/mingw",
+            "cacheVariables": {
+                "CMAKE_BUILD_TYPE": "Debug"
+            }
+        }
+    ],
+    "buildPresets": [
+        {
+            "name": "GCC 14.2.0 x86_64-w64-mingw32 (ucrt64)",
+            "configurePreset": "GCC 14.2.0 x86_64-w64-mingw32 (ucrt64)"
+        }
+    ]
+}

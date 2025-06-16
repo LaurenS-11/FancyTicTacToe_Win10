@@ -1,0 +1,4 @@
+C:/Users/user/Documents/cpp_projects/FancyTicTacToe_Win10/out/build/GCC 14.2.0 x86_64-w64-mingw32 (ucrt64)/CMakeFiles/embed_bg.dir
+C:/Users/user/Documents/cpp_projects/FancyTicTacToe_Win10/out/build/GCC 14.2.0 x86_64-w64-mingw32 (ucrt64)/CMakeFiles/FancyTicTacToe.dir
+C:/Users/user/Documents/cpp_projects/FancyTicTacToe_Win10/out/build/GCC 14.2.0 x86_64-w64-mingw32 (ucrt64)/CMakeFiles/edit_cache.dir
+C:/Users/user/Documents/cpp_projects/FancyTicTacToe_Win10/out/build/GCC 14.2.0 x86_64-w64-mingw32 (ucrt64)/CMakeFiles/rebuild_cache.dir

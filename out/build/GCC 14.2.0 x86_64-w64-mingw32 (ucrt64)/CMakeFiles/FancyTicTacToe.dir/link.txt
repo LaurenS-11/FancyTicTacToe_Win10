@@ -1,0 +1,3 @@
+"C:\Program Files\CMake\bin\cmake.exe" -E rm -f CMakeFiles\FancyTicTacToe.dir/objects.a
+C:\msys64\ucrt64\bin\ar.exe qc CMakeFiles\FancyTicTacToe.dir/objects.a @CMakeFiles\FancyTicTacToe.dir\objects1.rsp
+C:\msys64\ucrt64\bin\g++.exe -g -Wl,--whole-archive CMakeFiles\FancyTicTacToe.dir/objects.a -Wl,--no-whole-archive -o FancyTicTacToe.exe -Wl,--out-implib,libFancyTicTacToe.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\FancyTicTacToe.dir\linkLibs.rsp

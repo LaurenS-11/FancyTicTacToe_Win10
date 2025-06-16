@@ -1,0 +1,3 @@
+# Hashes of file build rules.
+02792bf836ff7ff5c4ec906f4983cd7f C:/Users/user/Documents/cpp_projects/FancyTicTacToe_Win10/FancyTicTacToe_Background.c
+723efe8241d88031a07d960b84950534 CMakeFiles/embed_bg

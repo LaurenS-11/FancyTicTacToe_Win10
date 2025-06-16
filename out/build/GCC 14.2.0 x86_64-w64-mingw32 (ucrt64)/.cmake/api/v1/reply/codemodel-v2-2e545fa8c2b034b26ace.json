@@ -1,0 +1,69 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "FancyTicTacToe",
+					"targetIndexes" : 
+					[
+						0,
+						1
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "FancyTicTacToe::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-FancyTicTacToe-Debug-a703c9b282dcf7fbae3e.json",
+					"name" : "FancyTicTacToe",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "embed_bg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-embed_bg-Debug-8fa94ca4ae2ab4c36750.json",
+					"name" : "embed_bg",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "C:/Users/user/Documents/cpp_projects/FancyTicTacToe_Win10/out/build/GCC 14.2.0 x86_64-w64-mingw32 (ucrt64)",
+		"source" : "C:/Users/user/Documents/cpp_projects/FancyTicTacToe_Win10"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 8
+	}
+}
